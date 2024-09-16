@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-"""#Line Plot
+#Line Plot
 x = [1, 2, 3, 4, 5]
 y = [34, 45, 56, 12, 10]
 
@@ -64,7 +64,7 @@ plt.xlabel('X axis')
 plt.ylabel('Y axis')
 plt.title('Scatter Plot Example')
 plt.grid()
-plt.show()"""
+plt.show()
 
 #Histogram
 data = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 6, 7, 8, 9]
@@ -75,3 +75,21 @@ plt.ylabel('Frequency')
 plt.title('Histogram Example')
 plt.grid()
 plt.show()
+
+#Pie Chart
+labels = ['Category A', 'Category B', 'Category C', 'Category D']
+sizes = [15, 30, 45, 10]
+
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
+plt.title('Pie Chart Example')
+plt.show()
+
+#Box Plot
+data = [7, 8, 5, 9, 11, 13, 5, 6, 10, 12, 15, 13, 9]
+
+plt.boxplot(data)
+plt.ylabel('Values')
+plt.title('Box Plot Example')
+plt.show()
+
+
