@@ -1,4 +1,4 @@
-"""import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
 y = [34, 45, 56, 12, 10]
@@ -7,11 +7,10 @@ plt.xlabel('Day')
 plt.ylabel('Temp')
 plt.title('Weather Analysis')
 plt.plot(x,y,'rD--')
-#plt.plot(x, y,color='red',linewidth=3)
+#plt.plot(x, y,color='red',line width=3)
 plt.grid()
-plt.show()"""
+plt.show()
 
-import matplotlib.pyplot as plt
 
 # Data for the first graph (Line 1)
 x1 = [1, 2, 3, 4, 5]
