@@ -10,6 +10,7 @@ plt.title('Weather Analysis')
 plt.plot(x,y,'rD--')
 #plt.plot(x, y,color='red',line width=3)
 plt.grid()
+plt.savefig("lineplot1.png")
 plt.show()
 
 #Line Plot2
@@ -48,7 +49,7 @@ plt.show()
 
 
 #Bar Plot
-"""categories = ['A', 'B', 'C', 'D']
+categories = ['A', 'B', 'C', 'D']
 values = [3, 7, 8, 5]
 
 plt.bar(categories, values)
@@ -56,6 +57,7 @@ plt.xlabel('Categories')
 plt.ylabel('Values')
 plt.title('Bar Plot Example')
 plt.grid()
+plt.savefig("BarPlot.png")
 plt.show()
 
 #Scatter Plot
@@ -67,6 +69,7 @@ plt.xlabel('X axis')
 plt.ylabel('Y axis')
 plt.title('Scatter Plot Example')
 plt.grid()
+plt.savefig("Scatterplot.png")
 plt.show()
 
 
@@ -79,6 +82,7 @@ plt.xlabel('Bins')
 plt.ylabel('Frequency')
 plt.title('Histogram Example')
 plt.grid()
+plt.savefig("Histogram.png")
 plt.show()
 
 #Pie Chart
@@ -98,7 +102,6 @@ data = [7, 8, 5, 9, 11, 13, 5, 6, 10, 12, 15, 13, 9]
 plt.boxplot(data)
 plt.ylabel('Values')
 plt.title('Box Plot Example')
+plt.savefig("Barplot.png")
 plt.show()
 
-
-"""
