@@ -49,4 +49,3 @@ plt.title('Sales vs Profit (Themed)')
 plt.savefig('scatterplot_sales_vs_profit_themed.png')
 plt.show()
 
-
