@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-#Line Plot
-"""x = [1, 2, 3, 4, 5]
+#Line Plot1
+x = [1, 2, 3, 4, 5]
 y = [34, 45, 56, 12, 10]
 
 plt.xlabel('Day')
@@ -12,7 +12,7 @@ plt.plot(x,y,'rD--')
 plt.grid()
 plt.show()
 
-#Line Plot
+#Line Plot2
 # Data for the first graph (Line 1)
 x1 = [1, 2, 3, 4, 5]
 y1 = [34, 45, 56, 12, 10]
@@ -41,11 +41,14 @@ plt.legend()
 # Show the grid
 plt.grid()
 
+plt.savefig("lineplot.png")
 # Display the graph
 plt.show()
 
+
+
 #Bar Plot
-categories = ['A', 'B', 'C', 'D']
+"""categories = ['A', 'B', 'C', 'D']
 values = [3, 7, 8, 5]
 
 plt.bar(categories, values)
@@ -66,6 +69,8 @@ plt.title('Scatter Plot Example')
 plt.grid()
 plt.show()
 
+
+
 #Histogram
 data = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 6, 7, 8, 9]
 
@@ -74,7 +79,7 @@ plt.xlabel('Bins')
 plt.ylabel('Frequency')
 plt.title('Histogram Example')
 plt.grid()
-plt.show()"""
+plt.show()
 
 #Pie Chart
 labels = ['Category A', 'Category B', 'Category C', 'Category D']
@@ -88,11 +93,12 @@ plt.show()
 
 
 #Box Plot
-"""data = [7, 8, 5, 9, 11, 13, 5, 6, 10, 12, 15, 13, 9]
+data = [7, 8, 5, 9, 11, 13, 5, 6, 10, 12, 15, 13, 9]
 
 plt.boxplot(data)
 plt.ylabel('Values')
 plt.title('Box Plot Example')
-plt.show()"""
+plt.show()
 
 
+"""
