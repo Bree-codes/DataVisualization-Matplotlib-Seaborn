@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 #Line Plot
-x = [1, 2, 3, 4, 5]
+"""x = [1, 2, 3, 4, 5]
 y = [34, 45, 56, 12, 10]
 
 plt.xlabel('Day')
@@ -74,22 +74,25 @@ plt.xlabel('Bins')
 plt.ylabel('Frequency')
 plt.title('Histogram Example')
 plt.grid()
-plt.show()
+plt.show()"""
 
 #Pie Chart
 labels = ['Category A', 'Category B', 'Category C', 'Category D']
 sizes = [15, 30, 45, 10]
 
-plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90,shadow= True,radius=1,explode=[0.1,0.1,0.1,0.1])
 plt.title('Pie Chart Example')
+plt.savefig("piechart.png",transparent = False,bbox_inches = "tight",pad_inches=1)
 plt.show()
 
+
+
 #Box Plot
-data = [7, 8, 5, 9, 11, 13, 5, 6, 10, 12, 15, 13, 9]
+"""data = [7, 8, 5, 9, 11, 13, 5, 6, 10, 12, 15, 13, 9]
 
 plt.boxplot(data)
 plt.ylabel('Values')
 plt.title('Box Plot Example')
-plt.show()
+plt.show()"""
 
 
